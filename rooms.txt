@@ -1,0 +1,6 @@
+1001 Available SeaView 2000.000
+1002 Available GardenView 1600.000
+1124 Reserved SeaView 2200.000
+1130 Available LakeView 1800.000
+1133 Reserved LakeView 1800.000
+1125 Reserved GardenView 2500.000
