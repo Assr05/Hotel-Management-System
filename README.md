@@ -8,22 +8,23 @@ This is a **Hotel Management System** built in **C programming language**. The s
 - 📋 **Customer Check-in & Check-out**
 - 💵 **Billing System**
 - 🔍 **Search Customer Records**
-- 🗑 **Delete Customer Data**
+- 💑 **Delete Customer Data**
 - 💽 **Data Persistence using File Handling**
 - ✅ **User Authentication & Role Management**
 - 🌐 **Multi-user Access with Admin & Receptionist Roles**
-- 📋 **Automated Invoice Generation**
 - ⚖️ **Room Service & Extra Charges Handling**
 - 🗒 **Detailed Reports on Bookings & Revenue**
 - 🏢 **Hotel Inventory & Resource Management**
-- 🎲 **Entertainment & Extra Facilities Booking**
+- 🎠 **Entertainment & Extra Facilities Booking**
+-  **Colourful User-Interface**
 
 ## 📌 Prerequisites
 To run this project, make sure you have:
 - GCC Compiler (For Windows: `MinGW`, For Linux/macOS: `gcc`)
 - Any C-compatible IDE (Code::Blocks, Dev-C++, VS Code, etc.)
+- **Required Files**: `users.txt`, `reservation.txt`, `room.txt`
 
-## 🔧 Installation & Running the Project
+## 🛠️ Installation & Running the Project
 1. **Clone the Repository**
    ```sh
    git clone https://github.com/yourusername/hotel-management-system.git
@@ -41,18 +42,32 @@ To run this project, make sure you have:
    ```
 
 ## 📝 Usage Instructions
-1. **Main Menu**
+1. **Login Step**
+   - Enter your username and password.
+   - User credentials are stored in `users.txt`.
+
+2. **Main Menu**
    - Choose options to **Book a Room**, **Check-out**, **View Bookings**, etc.
-2. **Customer Management**
+
+3. **Customer Management**
    - Enter customer details while booking a room.
    - Search and manage customer records easily.
-3. **Billing System**
+
+4. **Billing System**
    - Automatically calculates the total amount based on stay duration.
    - Includes additional charges for room service and extra facilities.
-4. **User Authentication**
+
+5. **User Authentication**
    - Secure login with different roles (Admin & Receptionist).
-5. **Report Generation**
+
+6. **Report Generation**
    - Generate reports on bookings, revenue, and inventory.
+
+7. **Reservation Data**
+   - All reservation-related information is stored in `reservation.txt`.
+
+8. **Room Data**
+   - Room details necessary for booking are stored in `room.txt`.
 
 ## 🏠 Future Enhancements
 - Add a **Graphical User Interface (GUI)** using C++ or Python.
@@ -63,13 +78,12 @@ To run this project, make sure you have:
 Contributions are welcome! Feel free to submit pull requests or report issues.
 
 ## 📚 License
-This project is licensed under the **MIT License**.
+This project is licensed under the **AU License**.
 
 ## 👨‍💻 Authors
-- **1-Abdelrahaman shaban saad
-    2- felopateer shokry
-    3-ahmed khaled
-    ** - (https://github.com/assr05)
-
+1- Abdelrahaman Shaban Saad (Lead Programmer)
+2- Felopateer Shokry
+3- Ahmed Khaled
+  
 ---
 Made with ❤️ in C.
